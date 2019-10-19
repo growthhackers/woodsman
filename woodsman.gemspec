@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.executables = Dir.glob('bin/*').map { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'activesupport', '< 6'
+  spec.add_dependency 'activesupport', '< 7'
   spec.add_dependency 'require_all', '~> 1.3'
   spec.add_dependency 'sentry-raven', '~> 2.3'
 
