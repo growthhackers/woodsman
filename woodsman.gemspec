@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport', '< 7'
   spec.add_dependency 'require_all', '~> 1.3'
-  spec.add_dependency 'sentry-raven', '~> 2.3'
+  spec.add_dependency 'sentry-raven', '>= 2.3'
 
   spec.add_development_dependency 'guard-rspec', '~> 4.5'
   spec.add_development_dependency 'rake', '~> 12.3'
