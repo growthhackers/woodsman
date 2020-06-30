@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    woodsman (0.1.4)
+    woodsman (0.1.5)
       activesupport (< 7)
       require_all (~> 1.3)
       sentry-raven (>= 2.3)
@@ -23,6 +23,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arrayfields (4.9.2)
     ast (2.4.0)
+    bump (0.9.0)
     cane (2.6.2)
       parallel
     chronic (0.10.2)
@@ -218,6 +219,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bump
   guard-rspec (~> 4.5)
   metric_fu (~> 4.11)
   rake (~> 12.3)

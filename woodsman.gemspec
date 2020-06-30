@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'simplecov', '~> 0.9'
   spec.add_development_dependency 'webmock', '~> 1.18'
   spec.add_development_dependency 'timecop', '~> 0.7'
+  spec.add_development_dependency 'bump'
 end
