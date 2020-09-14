@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec_junit_formatter', '~> 0.2'
   spec.add_development_dependency 'metric_fu', '~> 4.11'
   spec.add_development_dependency 'simplecov', '~> 0.9'
-  spec.add_development_dependency 'webmock', '~> 1.18'
+  spec.add_development_dependency 'webmock', '~> 3.9'
   spec.add_development_dependency 'timecop', '~> 0.7'
   spec.add_development_dependency 'bump'
 end

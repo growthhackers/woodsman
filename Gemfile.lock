@@ -116,7 +116,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     psych (3.1.0)
-    public_suffix (4.0.5)
+    public_suffix (4.0.6)
     rails_best_practices (1.19.1)
       activesupport
       code_analyzer (>= 0.4.8)
@@ -171,10 +171,10 @@ GEM
     timecop (0.9.1)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    webmock (1.24.6)
+    webmock (3.9.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
-      hashdiff
+      hashdiff (>= 0.4.0, < 2.0.0)
     zeitwerk (2.4.0)
 
 PLATFORMS
@@ -189,7 +189,7 @@ DEPENDENCIES
   rspec_junit_formatter (~> 0.2)
   simplecov (~> 0.9)
   timecop (~> 0.7)
-  webmock (~> 1.18)
+  webmock (~> 3.9)
   woodsman!
 
 BUNDLED WITH
