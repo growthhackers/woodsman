@@ -19,7 +19,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     arrayfields (4.9.2)
     ast (2.4.1)
-    bump (0.9.0)
+    bump (0.10.0)
     cane (2.6.2)
       parallel
     chronic (0.10.2)
